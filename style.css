@@ -9,7 +9,7 @@
     max-height: 100vh;
     background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .banar {
     max-width: 80%;
@@ -55,6 +55,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .person > img {
@@ -107,6 +108,7 @@ ul li {
     display: flex;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     gap: 4rem;
     padding-bottom: 5rem;
 }
@@ -147,4 +149,65 @@ ul li {
 .call-now {
     width: 160px;
     margin-left: 4rem;
+}
+
+/* Footer Style */
+footer {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.future {
+    width: 50%;
+}
+.footer-title {
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+.footer-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.email,
+.phone {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.icons img {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.subscribe {
+    display: block;
+}
+.subscribe-title {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+[type="email"] {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: none;
+    padding: 1rem;
+}
+.subscribe-btn {
+    margin-top: 1rem;
+    background: #005FAC;
+    color: #FFFFFF;
 }
