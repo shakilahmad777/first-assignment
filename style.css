@@ -204,6 +204,7 @@ footer {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     background: none;
+    outline: none;
     padding: 1rem;
 }
 .subscribe-btn {
