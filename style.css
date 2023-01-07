@@ -133,7 +133,8 @@ ul li {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(to left, rgba(38, 95, 171, 0.2), rgba(48, 94, 137, 0.9)), url(./images/watch.png);
+    background-image: linear-gradient(to left, rgba(38, 95, 171, 0.2),
+    rgba(48, 94, 137, 0.9)), url(./images/watch.png);
     background-repeat: no-repeat;
     background-size: auto;
 }
